@@ -1,0 +1,67 @@
+$date
+	Wed Sep 11 14:30:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module shft4_tb $end
+$var wire 4 ! Q [3:0] $end
+$var reg 4 " D [3:0] $end
+$var reg 1 # S0 $end
+$var reg 1 $ S1 $end
+$var reg 1 % clk $end
+$scope module sf $end
+$var wire 4 & D [3:0] $end
+$var wire 1 # S0 $end
+$var wire 1 $ S1 $end
+$var wire 1 % clk $end
+$var reg 4 ' Q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b1010 &
+0%
+0$
+0#
+b1010 "
+bx !
+$end
+#10
+bx01 !
+bx01 '
+1%
+#20
+0%
+#30
+1%
+#40
+b1100 "
+b1100 &
+1#
+0%
+#50
+b1100 !
+b1100 '
+1%
+#60
+0#
+1$
+0%
+#70
+b11 !
+b11 '
+1%
+#80
+1#
+0%
+#90
+1%
+#100
+0%
+#200
