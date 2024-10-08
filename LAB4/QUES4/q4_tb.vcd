@@ -1,0 +1,69 @@
+$date
+	Mon Sep  2 09:35:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module q4_tb $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " en $end
+$var reg 16 # in [15:0] $end
+$scope module q $end
+$var wire 1 " en $end
+$var wire 16 $ in [15:0] $end
+$var reg 1 % found $end
+$var reg 4 & out [3:0] $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b0 &
+x%
+b1000000001 $
+b1000000001 #
+0"
+b0 !
+$end
+#20
+b1101 !
+b1101 &
+b11111111111111111111111111111111 '
+1%
+b11111000000001 #
+b11111000000001 $
+1"
+#40
+b11111111111111111111111111111111 '
+1%
+b1111 !
+b1111 &
+b1001000000100110 #
+b1001000000100110 $
+#60
+b11111111111111111111111111111111 '
+1%
+b0 !
+b0 &
+b1 #
+b1 $
+#80
+b1110 !
+b1110 &
+b11111111111111111111111111111111 '
+1%
+b100000000000000 #
+b100000000000000 $
+#100
+b11111111111111111111111111111111 '
+1%
+b110 !
+b110 &
+b1100011 #
+b1100011 $
+#120
